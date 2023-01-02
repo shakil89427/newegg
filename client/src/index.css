@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Libre Baskerville", serif;
+}
+.swiper-pagination-bullet {
+  background-color: black !important;
+}
+.phoneinput > input {
+  border: none;
+  border-left: 1px solid #cbcaca;
+  outline: none;
+  padding: 10px;
+}
+input[name="Gender"] {
+  accent-color: rgb(83, 83, 83);
+}
